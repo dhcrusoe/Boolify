@@ -1,0 +1,25 @@
+======= Licensing
+
+Boolify: An Educational Search Engine that utilizes blocks to facilitate search
+Copyright David Crusoe & The Public Learning Media Laboratory, Inc (2014)
+	
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+======= Installation
+
+This source code can be uploaded to the root (public) directory of a web server and utilized. It will likely need file-path configuration, but does not require a database or other web technologies. 
+
+======= Warranty
+
+This software is provided "as-is," without any warranty, expressed or implied. In no event shall the rights holders, David Crusoe and/or The Public Learning Media Laboratory, Inc., be held liable for any damages arising from the use of the software.

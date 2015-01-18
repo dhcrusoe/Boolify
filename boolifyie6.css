@@ -1,0 +1,491 @@
+#puzzle_box 
+{
+	width: 800px;
+	height: 60px;
+	background: #f8f8f8;
+	border: 1px solid #d6d6d6;
+	border-left-color: #e4e4e4;
+	border-top-color: #e4e4e4;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0.5em;
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-bottom: 2px;
+	left: 20px;
+}
+
+#searchcontrol
+{
+	float: left; 
+}
+
+#overlay
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	
+	width: 100%;
+	height: 100%;
+	
+	background: url(images/overlay.gif);
+	
+	/* Set both opacity and filter, for MSIE and firefox compatability */
+	opacity: .7;
+	filter: alpha(opacity=70);
+	
+	/* z-index sets the layer order, so that the overlay rests on top.
+	Bear in mind that the popup dialogue needs to be even higher! */
+	z-index: 1000;
+}
+
+#dialogue #close
+{
+	position: absolute;
+	top: 0px;
+	right: 4px;
+	width: 15px;
+	height: 15px;
+	/*border-left: 2px solid #0000DD;
+	border-bottom: 2px solid #0000DD;*/
+	font-size: 14px;
+	/*padding-left: 2px;*/
+	cursor: pointer;
+}
+
+#dialogue #close a
+{
+	color: #DD0000;
+	text-decoration: none;
+}
+
+#dialogue
+{
+	position: absolute;
+	visibility: hidden;
+	
+	left: 50%;
+	margin-left: -175px;
+	top: 100px;
+	
+	width: 350px;
+	padding: 20px;
+	
+	border: 2px solid #0000DD;
+	background-color: #EEEEEE;
+	
+	z-index: 2000;
+}
+
+#trash
+{
+	float: left;
+	width:	75px;
+	height:	75px;
+	background-repeat: no-repeat;
+}
+
+#trash_full
+{
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
+	background-repeat: no-repeat;
+}
+
+#items
+{
+	float: left;
+	width: 525px;
+	border: 1px solid #f9f9f9;
+}
+
+
+#compare
+{
+	margin-left: 10px;
+}
+
+#search 
+{
+	margin-left: 10px;
+}
+
+#erase
+{
+	margin-left: 25px;
+	margin-top: 5px;
+}
+ 
+#board_holder
+{
+	width: 815px;
+	height: 200px;
+	padding-bottom: 50px;
+	padding-left: 25px;	
+	padding-right: 20px;
+}
+
+#board
+{
+	width: 818px;
+	height: 200px;
+	background-color: #f8f8f8;
+	border: 1px solid #f9f9f9;
+	border-bottom: 1px solid #000000;	
+} 
+
+#drop_board
+{
+}
+
+#info_line
+{
+	padding-left: 30px;
+	width: 100000px; /* don't ask */
+	float: left;
+}
+
+#top_board
+{
+	padding-left: 20px;
+	width: 815px;
+	float: left;
+}
+
+.info
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: red;
+	float: left;
+}
+
+#piece_info
+{
+	float: left;
+	margin-left: 100px;
+}
+
+#erase_info
+{
+	float: left;
+	margin-left: 250px;
+}
+
+#search_info
+{
+	float: left;
+	margin-left: 25px;
+}
+
+#compare_info
+{
+	float: left;
+	margin-left: 22px;
+}
+
+#clear_info
+{
+	float: left;
+	margin-left: 20px;
+}
+
+#msg 
+{ 
+	float: left;
+	margin-left: 10px; 
+	color: #444;
+	font-size: 0.7em;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+} 
+
+/*  2nd div in top_board */
+/*	<div id='eraseboard'><img src='images/clear_board_icon.gif' width=20 height=20></div> */
+#eraseboard
+{
+	float: right;
+	position: relative;
+	width: 20px;
+}
+
+#resultstr
+{
+	font-weight: bold;
+	float: left;
+}
+
+#branding
+{
+	float: right;
+	/*padding-top: 180px;*/
+}
+
+#results
+{
+	float: left;
+	width: 750px;
+	height: 500px;
+	/* background-color: #f8f8f8; */
+	border-top: 1px solid #000000;
+	border: 1px solid #f9f9f9;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	left: 20px;	
+}
+
+#cart .info
+{
+	margin-left: 50px;
+	color: #444;
+	font-size: 0.7em;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+#test
+{
+	position: absolute;
+	top: 500px;
+	left: 10px;
+	padding-bottom: 3px;
+	padding-top: 10px;
+	
+}
+
+#picked
+{
+	position: absolute;
+	left: 40px;
+	margin-top: 45px;
+	margin-left: 20px;
+	color: #444;
+	font-size: 0.7em;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+.search_icon
+{
+	cursor: pointer;
+	float: left;
+	width: 60px;
+}
+
+.puzzle
+{
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 75px;
+	height: 75px;
+	float: left;
+	cursor: move;
+	background-repeat: no-repeat;
+}
+
+.words
+{
+	padding-top: 23px;
+	padding-left: 20px;
+}
+
+#and
+{
+	padding-left: 18px;
+}
+
+#blankword
+{
+	margin-left: 20px;
+	background-image:  url(images/green.png);
+}
+
+#andword
+{
+	/*background-image:  url(images/blue_and_tpnt.gif);*/
+	background-image:  url(images/blue.png);
+}
+
+/*<div id='notandword' class='puzzle'><div class='words' id='notand'>And</div></div>*/
+#notandword
+{
+	visibility: hidden;
+	background-image:  url(images/blue_not2.png);
+}
+
+#notword
+{
+	background-image:  url(images/red.png);
+}
+#orword
+{
+	background-image:  url(images/yellow.png);
+}
+
+.notandword
+{
+
+	background-image:  url(images/blue_not2.png);
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 75px;
+	height: 75px;
+	float: left;
+	cursor: move;
+	background-repeat: no-repeat;	
+}
+
+.andword
+{
+	background-image:  url(images/blue.png);
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 75px;
+	height: 75px;
+	float: left;
+	cursor: move;
+	background-repeat: no-repeat;	
+}
+.notword
+{
+	background-image:  url(images/red.png);
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 75px;
+	height: 75px;
+	float: left;
+	cursor: move;
+	background-repeat: no-repeat;	
+}
+.orword
+{
+	background-image:  url(images/yellow.png);
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 75px;
+	height: 75px;
+	float: left;
+	cursor: move;
+	background-repeat: no-repeat;	
+}
+
+#test
+{
+	float: left;
+}
+ 
+.item {
+	float: left;
+	position: relative;
+	width: 150px;
+	height: 175px;
+	border: 1px solid #eee;
+	margin: 10px;
+	border-right: 2px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	background-color: #fff;
+	background-position: left top;
+	background-repeat: no-repeat;
+	cursor: move;
+}
+#cart .item {
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+	background-position: -40px -22px;
+	border-width: 1px;
+	cursor: default;
+}
+ 
+.item span
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 0.8em;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+ 
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    background: transparent url('images/green_right.png') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+    height: 60px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    cursor: move;
+}
+
+a.button span {
+    background: transparent url('images/green_left.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 23px 0 23px 18px;
+}
+
+/* Experimental Search API Style Settings */
+/*
+.gs-imageResult {width: 135px;overflow : hidden;}
+.gs-imageResult .gs-image-box {height: 102px;position : relative;}
+.key {font-size:1.0em;text-align:left;font-weight:bold;color:#444444;}
+*/
+
+.gsc-branding, .gsc-branding-img-noclear{margin: 0 0px 0 0; padding: 0;}
+.gsc-control { width : 100% }
+
+#searchcontrol .gsc-cursor-page, .gsc-cursor-current-page { 
+font-size: 13px; 
+font-family: Arial, sans-serif;
+}
+
+.gsc-cursor-box {
+background-color: #0099FF;
+border: 1px solid #0033FF;
+width: 150px;
+}
+
+form.gsc-search-box { display: none; }
+.gsc-resultsHeader {display: none;}
+.gs-imageResult {width: 129px; overflow : hidden;}
+.gs-imageResult .gs-image-box {height: 95px; position : relative;}
+
+.gsc-control, .gsc-resultsRoot, .gsc-resultsbox-visible, .gsc-results {
+
+font-size: 13px; 
+font-family: Arial, sans-serif;
+background-color:#fff; 
+width: 750px;
+
+}
+.gsc-imageResult {margin-bottom:0;padding-bottom:0;}
+.gs-no-results-result, .gs-snippet {border:0; background-color:transparent; padding:0;margin:0;}
+ 

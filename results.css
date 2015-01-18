@@ -1,0 +1,182 @@
+#results_box 
+{
+	width: 800px;
+	height: 90px;
+	background: #f8f8f8;
+	border: 1px solid #d6d6d6;
+	border-left-color: #e4e4e4;
+	border-top-color: #e4e4e4;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0.5em;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 2px;
+	left: 20px;
+}
+
+#results_table
+{
+	width: 800px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row_title
+{
+	font-weight:bold;
+	line-height:2em;
+}
+
+.row_title td
+{
+	width: 50%;
+	text-align: center;
+/*
+	padding-left: 110px;**/
+}
+
+#search-results
+{
+	display: none;
+}
+
+#results 
+{
+	margin-left: 10px;
+}
+
+.results td, .search-results td
+{
+	text-align: center;
+}
+
+#notice
+{
+	font_size: 14px;
+	margin-left: 25px;
+	width: 800px;
+	text-align: center;
+}
+
+#saved_results
+{
+	float: left;
+	margin-left: 25px;
+	width: 800px;
+}
+
+.results
+{
+	left: 400px;
+	cursor: pointer;
+}
+
+.booleans
+{
+	float: left;
+	color: red;
+	margin-left: 200px;
+}
+
+#top_board
+{
+	width: 800px;
+	height: 30px;
+}
+
+.action
+{
+	float: left;
+	margin-left: 125px;
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.info
+{
+	float: left;
+	margin-left: 200px;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.action img
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    background: transparent url('images/green_right.png') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+    height: 60px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    cursor: move;
+}
+
+a.button span {
+    background: transparent url('images/green_left.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 23px 0 23px 18px;
+}
+
+/* Experimental Search API Style Settings */
+/*
+.gs-imageResult {width: 135px;overflow : hidden;}
+.gs-imageResult .gs-image-box {height: 102px;position : relative;}
+.key {font-size:1.0em;text-align:left;font-weight:bold;color:#444444;}
+*/
+
+.gsc-branding, .gsc-branding-img-noclear{margin: 0 0px 0 0; padding: 0;}
+.gsc-control { width : 100% }
+
+.gsc-control {
+width:700px;
+}
+
+#searchcontrol .gsc-cursor-page, .gsc-cursor-current-page { 
+font-size: 13px; 
+font-family: Arial, sans-serif;
+}
+
+.gsc-cursor-box {
+background-color: #0099FF;
+border: 1px solid #0033FF;
+width: 150px;
+}
+
+form.gsc-search-box { display: none; }
+.gsc-resultsHeader {display: none;}
+.gs-imageResult {width: 129px; overflow : hidden;}
+.gs-imageResult .gs-image-box {height: 95px; position : relative;}
+
+.gsc-control, .gsc-resultsRoot, .gsc-resultsbox-visible, .gsc-results {
+
+font-size: 13px; 
+font-family: Arial, sans-serif;
+background-color:#fff; 
+width: 750px;
+
+}
+.gsc-imageResult {margin-bottom:0;padding-bottom:0;}
+.gs-no-results-result, .gs-snippet {border:0; background-color:transparent; padding:0;margin:0;}
+ 

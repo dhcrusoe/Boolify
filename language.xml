@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<en>
+		<homeHeader>Home</homeHeader>
+		<lessonsHeader>Lessons</lessonsHeader>
+		<helpHeader>Help</helpHeader>
+		<supportHeader>Support</supportHeader>
+		<aboutHeader>About</aboutHeader>
+		<languageLabel>English</languageLabel>
+		<trash>Remove</trash>
+		<saveSearch>Save search</saveSearch>
+		<viewSearch>View saved</viewSearch>
+		<startOver>Start over</startOver>
+		<back>Back</back>
+		<type>Search Options</type>
+		<greenPiece>WORD</greenPiece>
+		<bluePiece>AND</bluePiece>
+		<redPiece>NOT</redPiece>
+		<orangePiece>OR</orangePiece>
+		<purplePiece>URL</purplePiece>
+		<redAndPiece>AND</redAndPiece>
+		<keyword>Keyword or Phrase</keyword>
+		<url>Url</url>
+		<searchWhat>What would you like to search?</searchWhat>
+		<safeSearch>Google SafeSearch options:</safeSearch>
+		<safeStrict>Strict</safeStrict>
+		<safeModerate>Moderate</safeModerate>
+		<webSearch>Web Search</webSearch>
+		<blogSearch>Blog Search</blogSearch>
+		<videoSearch>Video Search</videoSearch>
+		<pictureSearch>Image Search</pictureSearch>
+		<bookSearch>Book Search</bookSearch>
+		<newsSearch>News Search</newsSearch>
+		<yourSearch>Your Search</yourSearch>
+		<searchResults>Search Results</searchResults>
+		<noResults>No results were found.</noResults>
+		<searchSaved>Your search has been saved.</searchSaved>
+		<clear>Clear</clear>
+		<startMsg>Move a green piece to the board and enter a keyword to start your search.</startMsg>
+		<searchesFromSession>Searches from this session</searchesFromSession>
+		<numberResults>Number of results</numberResults>
+		<none>None</none>
+		<results>Results</results>
+		<notLineErr>You cannot place an OR on the same line after a NOT.</notLineErr>
+		<onlyGrnErr>You can only attach those pieces to the word/phrase green piece.</onlyGrnErr>
+		<onlyGrnOrPrplErr>You can only attach those pieces to the word/phrase green piece or url purple piece.</onlyGrnOrPrplErr>
+		<noUrlToNotAndErr>You cannot attach url pieces to not pieces or and pieces.</noUrlToNotAndErr>
+		<noUrlToOrBlankErr>You cannot attach a url piece to an or piece that is attached to a word/phrase piece.</noUrlToOrBlankErr>
+		<tooManyCharsErr>You cannot enter more than 76 characters.</tooManyCharsErr>
+		<sameKeywordsErr>You can't search for the same thing twice.</sameKeywordsErr>
+		<noSearchToSaveErr>You haven't searched for anything yet.</noSearchToSaveErr>
+		<completeSearchErr>You can't save a search until it has completed.</completeSearchErr>
+		<noResultsToSaveErr>You can't save a search without any results.</noResultsToSaveErr>
+		<tooLongHorizErr>You cannot add any more horizontal pieces.</tooLongHorizErr>
+		<wordOrPhrasePiece>Word or phrase</wordOrPhrasePiece>
+		<exactWordOrPhrasePiece>Exact word or phrase</exactWordOrPhrasePiece>
+		<synonymPiece>Synonym</synonymPiece>
+		<urlPiece>Site</urlPiece>
+		<notPiece>Not</notPiece>
+		<orPiece>Or</orPiece>
+		<saveButtonText>Save</saveButtonText>
+		<viewButtonText>View</viewButtonText>
+		<resetButtonText>Reset</resetButtonText>
+		<savedSearchResultsText>Saved search results...</savedSearchResultsText>
+		<blankNotification>Drag and drop a green word / phrase to begin searching. Results appear below. </blankNotification>
+		<wordOrPhraseNotification>Enter a single word or a phrase that you want to include in your results</wordOrPhraseNotification>
+		<exactWordOrPhraseNotification>Enter a single word or phrase that you want to find exactly</exactWordOrPhraseNotification>
+		<synonymNotification>Enter a word with synonyms that you want to find</synonymNotification>
+		<urlNotification>Enter a URL that results should appear within.</urlNotification>
+		<notNotification>Not removes results from your search.</notNotification>
+		<orNotification>Or</orNotification>
+		<removedNotification>Piece removed.</removedNotification>
+		<searchSavedNotification>Search saved.</searchSavedNotification>
+	</en>
+	<es>
+		<homeHeader>Casa</homeHeader>
+		<lessonsHeader>Lessons</lessonsHeader>
+		<helpHeader>Ayuda</helpHeader>
+		<supportHeader>Contact</supportHeader>
+		<aboutHeader>Sobre</aboutHeader>
+		<languageLabel>Espanol</languageLabel>
+		<trash>Eliminar</trash>
+		<saveSearch>Guardar</saveSearch>
+		<viewSearch>Ver busquedas</viewSearch>
+		<startOver>Reiniciar</startOver>
+		<back>Regresar</back>
+		<type>Opciones</type>
+		<greenPiece>?</greenPiece>
+		<bluePiece>Y</bluePiece>
+		<redPiece>SIN</redPiece>
+		<orangePiece>O</orangePiece>
+		<purplePiece>URL</purplePiece>
+		<redAndPiece>Y</redAndPiece>
+		<keyword>Con las palabras o frase</keyword>
+		<url>Url</url>
+		<searchWhat>Que deseas buscar?</searchWhat>
+		<safeSearch>Opciones de busqueda segura:</safeSearch>
+		<safeModerate>Filtro Moderado</safeModerate>
+		<safeStrict>Filtro Estricto</safeStrict>
+		<webSearch>La red</webSearch>
+		<blogSearch>Blogs</blogSearch>
+		<videoSearch>Videos</videoSearch>
+		<bookSearch>Libros</bookSearch>
+		<pictureSearch>Imagenes</pictureSearch>
+		<newsSearch>Noticias</newsSearch>
+		<yourSearch>Su busqueda</yourSearch>
+		<searchResults>Resultados:</searchResults>
+		<noResults>No hay resultados.</noResults>
+		<searchSaved>Su busqueda ha sido guardada.</searchSaved>
+		<clear>Borrar</clear>
+		<startMsg>Para empezar la búsqueda coloque una pieza verde en el tablero. Refine su busqueda con otras piezas, por ejemplo: Y, O, SIN, o URL.</startMsg>
+		<searchesFromSession>Sus busquedas de esta seccion</searchesFromSession>
+		<numberResults>Numero de resultados</numberResults>
+		<none></none>
+		<results>Resultados</results>
+		<notLineErr>No puedes colocar un Y en la misma línea que un SIN.</notLineErr>
+		<onlyGrnErr>Solo puedes conectar esas piezas a la palabra o frase en la pieza verde.</onlyGrnErr>
+		<onlyGrnOrPrplErr>Solo puedes conectar esas piezas a la pieza verde (palabra o frase) o a la pieza morada (URL).</onlyGrnOrPrplErr>
+		<noUrlToNotAndErr>No puedes conectar una pieza morada (URL) a una pieza roja (SIN) o una pieza azul (AND).</noUrlToNotAndErr>
+		<noUrlToOrBlankErr>No puedes conectar una pieza morada (URL) una pieza azul (Y) que está conectada a una pieza verde (palabra o frase)</noUrlToOrBlankErr>
+		<tooManyCharsErr>No puedes teclear más de 76 caracteres.</tooManyCharsErr>
+		<sameKeywordsErr>No puedes usar las misma palabras dos veces.</sameKeywordsErr>
+		<noSearchToSaveErr>No has buscado nada!</noSearchToSaveErr>
+		<completeSearchErr>No puedes guardar tu búsqueda hasta que la hayas completado.</completeSearchErr>
+		<noResultsToSaveErr>No puedes guardar una búsqueda si no tienes resultados.</noResultsToSaveErr>
+		<tooLongHorizErr>No puedes agregar más piezas horizontales.</tooLongHorizErr>
+		<wordOrPhrasePiece>Spanish Word or phrase</wordOrPhrasePiece>
+		<exactWordOrPhrasePiece>Spanish Exact word or phrase</exactWordOrPhrasePiece>
+		<synonymPiece>Spanish Synonym</synonymPiece>
+		<urlPiece>Spanish Site</urlPiece>
+		<notPiece>Spanish Not</notPiece>
+		<orPiece>Spanish Or</orPiece>
+		<saveButtonText>Spanish Save</saveButtonText>
+		<viewButtonText>Spanish View</viewButtonText>
+		<resetButtonText>Spanish Reset</resetButtonText>
+		<savedSearchResultsText>Spanish Saved search results...</savedSearchResultsText>
+		<blankNotification>Spanish To begin your search, move a green keyword piece to the board. Refine your search by adding pieces, such as not, or, or a URL to limit your results. Results appear below.</blankNotification>
+		<wordOrPhraseNotification>Spanish Enter a single word or a phrase that you want to include in your results</wordOrPhraseNotification>
+		<exactWordOrPhraseNotification>Spanish Enter a single word or phrase that you want to find exactly</exactWordOrPhraseNotification>
+		<synonymNotification>Spanish Enter a word with synonyms that you want to find</synonymNotification>
+		<urlNotification>Spanish Enter a URL, in the format http://www.site.com that you want to contrain your searches to</urlNotification>
+		<notNotification>Spanish Not</notNotification>
+		<orNotification>Spanish Or</orNotification>
+		<removedNotification>Spanish Piece removed.</removedNotification>
+		<searchSavedNotification>Spanish Search saved.</searchSavedNotification>
+	</es>
+	<sv>
+		<homeHeader>Hem</homeHeader>
+		<lessonsHeader>Lektioner</lessonsHeader>
+		<helpHeader>Hjälp</helpHeader>
+		<supportHeader>Support</supportHeader>
+		<aboutHeader>About</aboutHeader>
+		<languageLabel>Svenska</languageLabel>
+		<trash>Släng bitar här</trash>
+		<saveSearch>Spara sökningen</saveSearch>
+		<viewSearch>Se sökningen</viewSearch>
+		<startOver>Börja om</startOver>
+		<back>Tillbaka</back>
+		<type>Sök</type>
+		<greenPiece>ORD</greenPiece>
+		<bluePiece>OCH</bluePiece>
+		<redPiece>INTE</redPiece>
+		<orangePiece>ELLER</orangePiece>
+		<purplePiece>URL</purplePiece>
+		<redAndPiece>OCH</redAndPiece>
+		<keyword>Nyckelord eller fras</keyword>
+		<url>Url</url>
+		<searchWhat>What would you like to search?</searchWhat>
+		<safeSearch>SafeSearch options:</safeSearch>
+		<safeModerate>Use moderate filtering</safeModerate>
+		<safeStrict>Use strict filtering</safeStrict>
+		<webSearch>Vald webbsökning</webSearch>
+		<blogSearch>Blogs</blogSearch>
+		<videoSearch>Videos</videoSearch>
+		<pictureSearch>Vald bildsökning</pictureSearch>
+		<newsSearch>Vald nyhetssökning</newsSearch>
+		<bookSearch>Böcker</bookSearch>
+		<yourSearch>Din sökning</yourSearch>
+		<searchResults>Sökresultat</searchResults>
+		<noResults>Inget sökresultat.</noResults>
+		<searchSaved>Din sökning har sparats</searchSaved>
+		<clear>Rensa</clear>
+		<startMsg>För att påbörja din sökning, flyttar du en grön nyckelordsbit. Du begränsar din sökning genom att lägga till fler bitar,  som till exempel inte, eller, eller en URL.</startMsg>
+		<searchesFromSession>Sökningar från denna session</searchesFromSession>
+		<numberResults>Antal träffar</numberResults>
+		<none>Inga träffar</none>
+		<results>Resultat</results>
+		<notLineErr>Du kan inte placera ELLER på samma rad efter INTE.</notLineErr>
+		<onlyGrnErr>Du kan bara sätta ihop dessa bitar med den gröna ord/fras-biten.</onlyGrnErr>
+		<onlyGrnOrPrplErr>Du kan bara sätta ihop dessa bitar med  den gröna ord/fras-biten eller den lila URL-biten.</onlyGrnOrPrplErr>
+		<noUrlToNotAndErr>Du kan inte lägga URL-bitar till INTE-bitar eller OCH-bitar.</noUrlToNotAndErr>
+		<noUrlToOrBlankErr>Du kan inte lägga en URL-bit till en ELLER-bit som sitter ihop med ord/fras-bit.</noUrlToOrBlankErr>
+		<tooManyCharsErr>Du får inte använda mer är 76 tecken.</tooManyCharsErr>
+		<sameKeywordsErr>Samma nyckelord hittade.</sameKeywordsErr>
+		<noSearchToSaveErr>Du har inte sökt efter något ännu.</noSearchToSaveErr>
+		<completeSearchErr>Du kan inte spara en sökning innan den är färdig.</completeSearchErr>
+		<noResultsToSaveErr>Du kan inte spara en sökning som inte givit något resultat.</noResultsToSaveErr>
+		<tooLongHorizErr>Du kan inte lägga till fler horisontella bitar.</tooLongHorizErr>
+	</sv>
+	<pt>
+		<homeHeader></homeHeader>
+		<lessonsHeader></lessonsHeader>
+		<helpHeader></helpHeader>
+		<supportHeader></supportHeader>
+		<aboutHeader></aboutHeader>
+		<languageLabel>Portugues</languageLabel>
+		<trash>Remover</trash>
+		<saveSearch>Salvar</saveSearch>
+		<viewSearch>Ver Busca</viewSearch>
+		<startOver>Comecar</startOver>
+		<back>Voltar</back>
+		<type>Opcoes de Busca</type>
+		<greenPiece>PALAVRA</greenPiece>
+		<bluePiece>E</bluePiece>
+		<redPiece>NAO</redPiece>
+		<orangePiece>OU</orangePiece>
+		<purplePiece>URL</purplePiece>
+		<redAndPiece>SIN</redAndPiece>
+		<keyword>Palavra Chave ou Frase</keyword>
+		<url>URL</url>
+		<searchWhat>O que voce gostaria de buscar?</searchWhat>
+		<safeSearch>Opcao de BuscaSegura:</safeSearch>
+		<safeModerate>Usar filtro moderado</safeModerate>
+		<safeStrict>Usar filtro estrito</safeStrict>
+		<webSearch>Busca na Web</webSearch>
+		<blogSearch>Busca por Blog</blogSearch>
+		<videoSearch>Busca por Video</videoSearch>
+		<bookSearch>Busca por Livro</bookSearch>
+		<pictureSearch>Busca por Imagem</pictureSearch>
+		<newsSearch>Busca de Noticias</newsSearch>
+		<yourSearch>Sua Busca</yourSearch>
+		<searchResults>Resultados da Busca:</searchResults>
+		<noResults>Nenhum Resultado foi Encontrado.</noResults>
+		<searchSaved>Sua busca foi salva.</searchSaved>
+		<clear>Clear</clear>
+		<startMsg>Para comecar a sua busca, coloque palavra chave verde no quadro grande. Para refinar sua busca, adicione as outras pecas, como, por exemplo, Nao, Ou, ou a URL para limitar sua busca.</startMsg>
+		<searchesFromSession>Buscas para esta sessao</searchesFromSession>
+		<numberResults>Numero de Resultados</numberResults>
+		<none>Nenhum (dos resultados)</none>
+		<results>Resultados</results>
+		<notLineErr>Voce nao pode usar OU na mesma linha depois de NAO</notLineErr>
+		<onlyGrnErr>Voce pode apenas anexar as pecas as palavras/frase peca verde.</onlyGrnErr>
+		<onlyGrnOrPrplErr>Voce pode apenas anexar essas pecas as palavras/frase peca verde ou  a peca roxa da URL.</onlyGrnOrPrplErr>
+		<noUrlToNotAndErr>Voce nao pode anexar as pecas da URL as pecas de NAO ou E.</noUrlToNotAndErr>
+		<noUrlToOrBlankErr>Voce nao pode anexar as pecas da URL a uma peca de OU que esteja anexada a uma peca de palavra/frase </noUrlToOrBlankErr>
+		<tooManyCharsErr>Voce nao pode digitar mais de 76 caracteres.</tooManyCharsErr>
+		<sameKeywordsErr>Palavras chaves iguais detectadas.</sameKeywordsErr>
+		<noSearchToSaveErr>Voce nao procurou por nada ainda!</noSearchToSaveErr>
+		<completeSearchErr>Voce nao pode salvar uma busca ate que ela seja completada.</completeSearchErr>
+		<noResultsToSaveErr>Voce nao pode salvar uma busca sem resultados.</noResultsToSaveErr>
+		<tooLongHorizErr>Voce nao pode adicionar mais pecas na horizontal.</tooLongHorizErr>
+	</pt>
+</root>

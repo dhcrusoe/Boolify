@@ -1,0 +1,51 @@
+a.button span 
+{
+    background: transparent url('images/green_left.gif') no-repeat;
+}
+
+#blankword
+{
+	background-image:  url(images/green.gif);
+}
+
+#andword
+{
+	background-image:  url(images/blue.gif);
+}
+#notword
+{
+	background-image:  url(images/red.gif);
+}
+#orword
+{
+	background-image:  url(images/yellow.gif);
+}
+#notandword
+{
+	background-image: url(images/blue_not.gif);
+}
+
+.notandword
+{
+	background-image: url(images/blue_not.gif);
+}
+
+.andword
+{
+	background-image:  url(images/blue.gif);
+}
+
+.notword
+{
+	background-image:  url(images/red.gif);
+}
+
+.orword
+{
+	background-image:  url(images/yellow.gif);
+}
+
+a.button 
+{
+    background: transparent url('images/green_right.gif') no-repeat scroll top right;
+}

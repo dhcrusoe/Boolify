@@ -1,0 +1,457 @@
+body {margin:0; padding:0; background:#FFFFFF; font-family:Arial, Helvetica, sans-serif;}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;}
+
+#header { position:relative; margin-left:auto; margin-right:auto; width:1042px; height: auto; background-color: transparent;text-align:center;}
+
+#logo {
+	margin: 19px 0;
+}
+
+#main {width:1004px; margin:0 auto;}
+#main #language ul {float:right; list-style:none; padding:5px 10px 0 0;}
+#main #language ul li {float:left; padding:0 5px 0 0; line-height:20px;}
+#main #language ul li a {font-size:12px; font-weight:bold; color:#080909; text-decoration:underline; padding-bottom: 2px;}
+#main #language ul li a:hover {text-decoration:none;}
+#main #language ul li a img {border:none;}
+#main img.border {float:left;}
+#main #box {width:1002px; border:#848486 1px solid; border-width:0 1px; float:left; background-color:#FFF;}
+#main #box #Abox {float:left; width:80px; padding:0 10px; border-right:#83966B 2px solid; font-size:18px; color:#FFF; font-weight:bold; text-align:center; margin:-5px 0 0 0;}
+
+#feedback { top: 300px; left: 0; position: fixed; height: 123px; width: 28px; background:url(/images/related_tools.png) 0 0 no-repeat; }
+
+/* remove AddThis Tracking Cookie */
+
+#atffc {
+  display: none;
+}
+
+/* #main #box #Abox h1 {background:url(/images/bg-type.gif) 0 0 no-repeat; text-align:center; width:80px; height:30px; font-size:18px; color:#000; cursor:pointer;} */
+#main #box #Abox h1 {background:url(/images/type_gear.gif) 0 0 no-repeat; padding-left: 8px; background-position: right; text-align:left; width:72px; height:30px; font-size:12px; color:#000; cursor:pointer;}
+
+#blankWord {width:70px; height:70px; background:url(/images/greenPuzzle.png) 0 0 no-repeat; margin:20px auto 0 auto; line-height:70px; cursor:move; font-size:12px; color:#FFF; font-weight:bold; text-align:center;}
+#andWord {width:58px; height:70px; background:url(/images/bluePuzzleVertical.png) 0 0 no-repeat; margin:20px auto 0 auto; line-height:58px; cursor:move; font-size:12px; color:#FFF; font-weight:bold; text-align:center;}
+#notWord {width:70px; height:58px; background:url(/images/redPuzzle.png) 0 0 no-repeat; margin:20px auto 0 auto; line-height:58px; cursor:move; font-size:14px; color:#FFF; font-weight:bold; text-align:center;}
+#orWord {width:70px; height:58px; background:url(/images/yellowPuzzle.png) 0 0 no-repeat; margin:20px auto 0 auto; line-height:58px; cursor:move; font-size:12px; color:#FFF; font-weight:bold; text-align:center;}
+#urlWord {width:70px; height:70px; background: url(/images/purplePuzzle.png) 0 0 no-repeat; margin:20px auto 0 auto; line-height:70px; cursor:move; font-size:12px; color:#FFF; font-weight:bold; text-align:center;}
+#notAndWord {width:70px; height:70px; background:url(/images/redPuzzle.png) 0 0 no-repeat; margin:20px auto 0 auto; line-height:70px; cursor:move; font-size:12px; color:#FFF; font-weight:bold; text-align:center; visibility:hidden;}
+#main #box #board {float:left; min-width:786px; width:786px; min-height:465px; height:465px; background-color:#FFFFFF;}
+#main #box #board p {color:#9F9F9F; line-height:40px; text-align:center; font-size:18px; margin-top:200px; position: absolute; width:786px; }
+#main #box #Cbox {float:left; width:110px; margin:-5px 0 0 0; text-align:center;}
+#main #box #Cbox a#trash {display:block; margin:0 5px 0 0;padding:0 2px;text-align:right;}
+#main #box #Cbox img {border:none;}
+#main #box #Cbox img.border {float:right; display:inline; margin:0 5px 0 0;}
+#main #box #Cbox ul {list-style:none; width:75px; text-align:center; float:right; padding:0 2px; border:#858485 2px solid; border-width:0 2px; display:inline; margin:0 5px 0 0;}
+#main #box #Cbox ul li#trash{border-bottom:none; font-size:12px; color:#000; font-weight:bold;}
+#main #box #Cbox ul li {border-bottom:#858485 2px solid; float:left; width:100%;}
+#main #box #Cbox ul li a {text-decoration:none; font-size:12px; color:#000; font-weight:bold;}
+#main #box #Cbox ul li a:hover {color:#e00000;}
+#main #box #Cbox ul li a span {display:block;}
+#main h2 {color:#444444; font-size:16px; float:left; padding:10px 0 10px 0;}
+#main h2 span {font-size:12px;}
+
+#main #Bluebox {width:982px; background-color:#FFF; border:#B5E9F7 10px solid; clear:both; min-height:240px; height:auto !important; height:240px; margin:0 0 20px 0;}
+#main #Bluebox p {margin: 10px; }
+#main #Bluebox #searchControl { margin-left:30px; }
+#main #Bluebox h3 {height:35px; line-height:35px; font-size:16px; color:#FFF; background-color:#12A3EB; padding:0 0 0 20px;}
+
+
+#main #BlueboxC {width:982px; background-color:#FFF; border:#B5E9F7 10px solid; clear:both; margin:0 0 20px 0;}
+#main #BlueboxC p {margin: 10px; }
+#main #BlueboxC h3 {height:35px; line-height:35px; font-size:16px; color:#FFF; background-color:#12A3EB; padding:0 0 0 20px;}
+
+/*  From old CSS */
+
+.andWord {width:70px; height:70px; background:url(/images/bluePuzzleVertical.png) 0 0 no-repeat; line-height:70px; cursor:move; font-size:14px; color:#FFF; font-weight:bold; text-align:center; position:relative;}
+.notWord {width:70px; height:70px; background:url(/images/redPuzzle.png) 0 0 no-repeat; line-height:70px; cursor:move; font-size:14px; color:#FFF; font-weight:bold; text-align:center; position:relative;}
+.orWord {width:70px; height:70px; background:url(/images/yellowPuzzle.png) 0 0 no-repeat; line-height:70px; cursor:move; font-size:14px; color:#FFF; font-weight:bold; text-align:center; position:relative;}
+.notAndWord {width:70px; height:70px; background:url(/images/bluePuzzleHorizontal.png) 0 0 no-repeat; line-height:70px; cursor:move; font-size:14px; color:#FFF; font-weight:bold; text-align:center; visibility:hidden;}
+
+
+#overlay
+{
+	position:fixed;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;
+	
+	width: 100%;
+	height: 100%;
+	
+	background: url(/images/overlay.gif);
+	
+	/* Set both opacity and filter, for MSIE and firefox compatability */
+	opacity: .7;
+	filter: alpha(opacity=70);
+	
+	/* z-index sets the layer order, so that the overlay rests on top.
+	Bear in mind that the popup dialogue needs to be even higher! */
+	z-index: 1000;
+}
+
+.close
+{
+	position: absolute;
+	top: 0px;
+	right: 4px;
+	width: 15px;
+	height: 15px;
+	/*border-left: 2px solid #0000DD;
+	border-bottom: 2px solid #0000DD;*/
+	font-size: 14px;
+	/*padding-left: 2px;*/
+	cursor: pointer;
+}
+
+.close a
+{
+	color: #DD0000;
+	text-decoration: none;
+}
+
+#dialogue
+{
+	position: absolute;
+	visibility: hidden;
+	
+	left: 50%;
+	margin-left: -175px;
+	top: 100px;
+	
+	width: 350px;
+	padding: 20px;
+	
+	border: 2px solid #0000DD;
+	background-color: #EEEEEE;
+	
+	z-index: 2000;
+}
+
+div.blankWord {
+	height:70px; background:url(/images/greenPuzzleLeft.png) 0 0 no-repeat;
+	margin-right:6px;
+	line-height:70px;
+	cursor:move;
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+    display: block;
+    float: left;
+    padding-left: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+div.blankWord span {
+	position:relative;
+	left:23px;
+	margin-left:-23px;
+    background: transparent url('images/greenPuzzleRight.png') no-repeat top right;
+    display: block;
+	line-height:70px;
+	height:70px;
+    padding-right: 18px;
+}
+
+div.urlWord {
+	height:70px; background:url(/images/purplePuzzleLeft.png) 0 0 no-repeat;
+	margin-right:6px;
+	line-height:70px;
+	cursor:move;
+	font-size:14px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+    display: block;
+    float: left;
+    padding-left: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+div.urlWord span {
+	position:relative;
+	left:22px;
+	margin-left:-22px;
+    background: transparent url('images/purplePuzzleRight.png') no-repeat top right;
+    display: block;
+	line-height:70px;
+    padding-right: 18px;
+}
+
+/* Searches and what not */
+
+#searchesBox
+{
+	position: absolute;
+	visibility: hidden;
+	
+	left: 50%;
+	margin-left: -400px;
+	top: 100px;
+	
+	width: 800px;
+	padding: 20px;
+	
+	border: 2px solid #313131;
+	background-color: #FFFFFF;
+	
+	z-index: 2000;
+}
+
+#searchesBox table { 
+	color: #4a4a4a;
+	background-color: #d5eaf8;
+	font-size: 1em;
+}
+
+#results_table
+{
+	width: 700px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row_title
+{
+	font-weight:bold;
+	line-height:2em;
+}
+
+.row_title td
+{
+	width: 50%;
+	text-align: center;
+/*
+	padding-left: 110px;**/
+}
+
+#saved_results
+{
+	float: left;
+	margin-left: 25px;
+	width: 700px;
+}
+.results
+{
+	left: 400px;
+	cursor: pointer;
+}
+
+/* Types Box */
+
+#typesBox
+{
+	position: absolute;
+	visibility: hidden;
+	
+	left: 50%;
+	margin-left: -200px;
+	top: 100px;
+	
+	width: 400px;
+	padding: 20px;
+	
+	border: 2px solid #313131;
+	background-color: #FFFFFF;
+	
+	z-index: 2000;
+}
+
+#typesBox div#typesInfo { 
+	width: 300px;
+	margin: 4px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#typesBox div#typesContainer {
+	width: 300px;
+	margin: auto;
+	font-size: 14px;
+	color: #4a4a4a;
+	padding: 4px;
+}
+
+#typesBox div#safeInfo { 
+	width: 300px;
+	margin: 4px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#typesBox div#safeContainer {
+	width: 300px;
+	margin: auto;
+	font-size: 14px;
+	color: #4a4a4a;
+	padding: 4px;
+}
+
+#typesContainer div { 
+	margin: 4px;
+}
+
+.searchTypeSelected
+{
+	font-weight: bold;
+	background-color: #d5eaf8;
+}
+
+.searchTypeNotSelected
+{
+	font-weight: normal;
+	background-color: white;
+}
+
+.searchSafeSelected
+{
+	font-weight: bold;
+	background-color: #d5eaf8;
+}
+
+.searchSafeNotSelected
+{
+	font-weight: normal;
+	background-color: white;
+}
+
+
+
+.search_icon
+{
+	cursor: pointer;
+	float: left;
+	width: 60px;
+}
+#picked
+{
+	color: #4a4a4a;
+	background-color: #d5eaf8;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 4px;
+	width: 300px;
+}
+
+/* Google API Styles */
+/*
+.gsc-branding, .gsc-branding-img-noclear{margin: 0 0px 0 0; padding: 0;}
+.gsc-control { width : 100% }
+
+.gsc-control {
+padding-top: 6px;
+width:700px;
+}
+
+#searchcontrol .gsc-cursor-page, .gsc-cursor-current-page { 
+font-size: 13px; 
+font-family: Arial, sans-serif;
+}
+
+.gsc-cursor-box {
+border-top: 1px solid black;
+margin-top: 2px;
+margin-bottom: 2px;
+width: 350px;
+}
+
+form.gsc-search-box { display: none; }
+.gsc-resultsHeader {display: none;}
+.gs-imageResult {width: 129px; overflow : hidden;}
+.gs-imageResult .gs-image-box {height: 95px; position : relative;}
+
+.gsc-control, .gsc-resultsRoot, .gsc-resultsbox-visible, .gsc-results {
+
+font-size: 13px; 
+font-family: Arial, sans-serif;
+background-color:#fff; 
+width: 750px;
+
+}
+.gsc-imageResult {margin-bottom:0;padding-bottom:0;}
+.gs-no-results-result, .gs-snippet {border:0; background-color:transparent; padding:0;margin:0;}*/
+.niceul li{ list-style: none; font-size:12px;}
+.niceul { margin-top:8px;}
+.nicetable { margin-top:8px; font-size:12px;}
+.greeny{ font-family:Arial, Helvetica, sans-serif;color:#009933;font-size:12px;}
+.toplnk{ font-family:Arial, Helvetica, sans-serif;font-size:14px;}
+.mdesc{ font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+.maligma{ margin-left:10px; text-decoration:none; cursor:pointer; color:#639;font-size:12px;}
+.maligmab{text-decoration:none; cursor:pointer; color:#639;}
+.videocore
+{
+	position:relative;
+	width:100%;
+	max-height:200px;
+	overflow:hidden;
+	margin-top:4px;
+	display:inline-block;
+	font-size:12px;
+}
+.videol
+{
+	position:relative;
+	float:left;
+	max-height:200px;
+	overflow:hidden;
+	display:inline-block;
+	font-size:12px;
+}
+.videor
+{
+	position:relative;
+	float:left;
+	top:2px;
+	width:60%;
+	max-height:200px;
+	overflow:hidden;
+	margin-left:5px;
+	display:inline-block;
+	font-size:12px;
+	
+}
+.mainpaginator
+{
+	position:relative;
+	width:100%;
+	height:20px;
+	display:inline-block;
+	overflow:hidden;
+	font-size:12px;
+}
+.paginate-cursor-page
+{
+		position:relative;
+		float:left;
+	height:16px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:5px;
+	font-size:12px;
+}
+.paglinks
+{
+	color:#000000;
+	text-decoration:underline;
+	font-size:12px;
+}
+.paglinksA
+{
+	color: #F00;
+	text-decoration:underline;
+	font-size:12px;
+}
+.bingbranding
+{
+		position:relative;
+		float: right;
+		width:200px;
+	height:20px;
+	display:inline-block;
+	font-size:12px;
+
+}
+ 
